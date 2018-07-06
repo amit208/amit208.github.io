@@ -71,7 +71,11 @@ main {
 
 .article img {
 	width: 100%;
-	box-shadow: 0 0 8px lightgrey;
+	box-shadow: 0 0 4px lightgrey;
+}
+
+.article img:hover {
+	box-shadow: 0 0 16px lightgrey;
 }
 
 .article {
