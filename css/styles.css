@@ -1,0 +1,147 @@
+/*==========================
+GENERAL STYLES
+==========================*/
+*, body {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/*==========================
+HEADER STYLES
+==========================*/
+
+header {
+	border-bottom: 4px solid #7d97ad;
+	color: #2d3c49;
+	padding: 1em 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header  h1 {
+	font-weight: lighter;
+	font-size: 2.4em;
+	text-align: right;
+	margin: 0;
+}
+
+header  h3 {
+	font-weight: normal;
+	font-size: 1.4em;
+	text-align: right;
+	margin: 0;
+}
+
+#container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.myInfo {
+	display: inline-block;
+	float: right;
+}
+
+#myLogo {
+	max-width: 100%;
+}
+
+/*====================================
+MAIN STYLES
+======================================*/
+main {
+	margin: 1em 0;
+}
+.heroImage {
+	width: 100%;
+}
+
+.featuredWork > h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 2em;
+	color: #7d97ad;
+	margin: 0.8em 0 0.4em 0.3em;
+}
+
+.articles {
+	display: flex;
+}
+
+.article img {
+	width: 100%;
+	box-shadow: 0 0 8px lightgrey;
+}
+
+.article {
+	margin: 0 15px 0 0;
+}
+
+.article > h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: normal;
+	margin: 0.5em 0 0 0;
+}
+
+.article a, h1 {
+	color: #2d3c49;
+	text-decoration: none;
+}
+
+.article3 {
+	margin: 0;
+}
+
+/*====================================
+FOOTER STYLES
+======================================*/
+footer {
+	height: 3em;
+	background-color: #e0dede;
+	box-shadow: 0 0 14px #717171;
+	color: black;
+}
+
+.footerContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+}
+
+.footerContent > h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 1.5em;
+	margin: 0 0.8em 0 0;
+}
+
+.socialIcons {
+	margin: 0;
+}
+
+.socialIcons li {
+	list-style-type: none;
+	display: inline;
+	margin: 0 1.2em 0 0;
+}
+
+.icons {
+	width: 2em;
+}
+
+/*====================================
+FOR DESKTOP -- 770px - 960px and more
+======================================*/
+
+/*==========================
+FOR TABLET -- 480px - 769px
+==========================*/
+
+
+/*==========================
+FOR MOBILE -- 360px - 479px
+==========================*/
