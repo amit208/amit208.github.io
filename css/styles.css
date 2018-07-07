@@ -17,6 +17,11 @@ header {
 	color: #2d3c49;
 	padding: 1em 0;
 	font-family: 'Montserrat', sans-serif;
+	box-shadow: 0 0 14px #717171;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	background-color: #fff;
 }
 
 header  h1 {
@@ -33,10 +38,16 @@ header  h3 {
 	margin: 0;
 }
 
-#container {
+.headerContent {
 	max-width: 960px;
 	margin: 0 auto;
+	padding-right: 1em;
 }
+
+/*#container {
+	max-width: 960px;
+	margin: 0 auto;
+}*/
 
 .myInfo {
 	display: inline-block;
@@ -52,6 +63,9 @@ MAIN STYLES
 ======================================*/
 main {
 	margin: 1em 0;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 8em;
 }
 .heroImage {
 	width: 100%;
@@ -107,6 +121,7 @@ footer {
 	background-color: #e0dede;
 	box-shadow: 0 0 14px #717171;
 	color: black;
+	margin: 1.5em 0 0 0;
 }
 
 .footerContent {
